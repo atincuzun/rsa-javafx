@@ -1,0 +1,13 @@
+This project encrypts and decrypts the given text file according to RSA. 
+
+The user must start by generating encryption and decrpytion keys first. This can be done by clicking to the "Generate Keys" button.
+
+The user can input text in the given textfield and get the resulting encrypted text.
+
+Then, to confirm that encrpytion and decrpytion actually works, the same encrypted text with the same public/private key pair can be decrypted.
+
+After generating the keys, the user can also input the given text file to encrypt using the "Choose file to encrypt" button. The output is created with "_encrypted" suffix in the same directory.
+
+Using the decrpytion key, which has been generated as a pair along with encryption key, the text file can be decrypted using "Choose file to decrypt" button.  
+
+If the keys are not generated first before using the program, an exception occurs. 
